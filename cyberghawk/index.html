@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CGK - GROUP</title>
+	<link rel="icon" href="logo.png" style="border-radius: 20px;">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+	<div id="preloader">
+        <div class="logo">
+            <img src="logo.png" alt="Logo"> 
+            <p>CGK - GROUP</p>
+        </div>
+    </div>
+
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="logo.png" alt="Logo" class="logo"> 
+            <p>CGK - <span class="span">GROUP</span></p>
+        </div>
+    </div>
+   
+	<header class="header">
+		<a href="#home" class="logo">CGK -<span> GROUP </span></a>
+
+		<i class='bx bx-menu' id="menu-icon"></i>
+
+		<nav class="navbar">
+			<a href="#home" ><i class='bx bxs-home'></i>HOME</a>
+			<a href="#tools" ><i class='bx bx-cog' ></i>TOOLS</a>
+			<a href="#members" ><i class='bx bxs-group' ></i>MEMBERS</a>
+			<a href="#contact" ><i class='bx bxs-phone'></i>CONTACT</a>
+		</nav>
+	</header>
+	
+	<a href="chat.html" class="tog"><i class='bx bxs-conversation'></i></a>
+
+	<section class="home" id="home">
+		<div class="home-content">
+			<h1><span>CYBERG-HAWK GROUP</span></h1>
+			<h3 class="text-animation"><span></span></h3>
+			<p>JOIN OUR GROUP</p>&nbsp;&nbsp;
+			<div class="social-icons">
+				<a href="https://github.com/Cyberghawk" target="_blank"><i class='bx bxl-github'></i></a>
+				<a href="https://www.youtube.com/@Cyberghawk" target="_blank"><i class='bx bxl-youtube' ></i></a>
+				<a href="https://t.me/Cyberghawk" target="_blank"><i class='bx bxl-telegram'></i></a>
+				<a href="chat.html" target="_blank"><i class='bx bx-chat'></i></a>
+			</div>&nbsp;&nbsp;
+
+			<div class="btn-group">
+				<a href="join.html" class="btn">JOIN-US</a>
+				<a href="#contact" class="btn">CONTACT-US</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="services" id="tools">
+		<h2 class="heading">Hacking - Tools</h2>
+
+		<div class="services-container">
+			<div class="service-box">
+				<div class="service-info">
+					<h4>Kali Linux</h4>
+					<p>The most powerful and the most advanced penetration testing, security auditing, vulnerability scanning, networking OS. which is Debian based operating system used by most of the world hackers like Black Hat Hackers, White Hat Hackers and Gray Hat Hackers to hack devices and to get a remote access or unauthorized access to devices using this OS called Kali Linux.</p>
+				</div>
+			</div>
+
+			<div class="service-box">
+				<div class="service-info">
+					<h4>Python </h4>
+					<p>Python is the most powerful programming language in the world, which can be used by hackers for brute force attack, Dictionary attack, and to make Malwares, Virus and to create Applications</p>
+				</div>
+			</div>
+
+			<div class="service-box">
+				<div class="service-info">
+					<h4>Social Engineering Toolkit</h4>
+					<p>Social Engineering Toolkit which is also known as SET, it is the most powerful Phishing tool used by pro hackers for information gathering it can perform attacks like: Credential Harvester Attack, Tabnabbing Attack, Multi-Attack Web, web jacking attack, spear-Phishing attack and etc...</p>
+				</div>
+			</div>
+
+			<div class="service-box">
+				<div class="service-info">
+					<h4>JavaScript</h4>
+					<p>JavaScript is a programming language that can be used by hackers and Programmers some of its use include: Cross-Site-Scripting(XSS), BeEF-XSS(Browser Attack), To make Malwares, To create a functional website, to create an applications</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<audio id="background-audio" src="dj.mp3" autoplay></audio>
+<script src="script.js"></script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-audio');
+            audio.play().catch(function(error) {
+                console.error('Autoplay was prevented:', error);
+            });
+        });
+
+        // JavaScript to handle the preloader timing
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.body.classList.add('preloaded');
+    }, 5000); // 5000 milliseconds = 5 seconds
+});
+
+    </script>
+</body>
+</html>
