@@ -398,7 +398,7 @@ span{
 }
 
 .member-item{
-	min-height: 500px;
+	min-height: 400px;
 	max-width: 450px;
 	background: rgba(0, 0, 0, 0.7);
 	border: 3px solid rgba(238, 238, 238, 0.2);
@@ -427,7 +427,10 @@ span{
 }
 
 .member-item p{
-	font-size: 1.3rem;
+	text-decoration: none;
+	color: #00ff00;
+	margin-top: 2rem;
+	font-size: 20px;
 }
 
 #star{
