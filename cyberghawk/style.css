@@ -396,12 +396,12 @@ audio {
 }
 
 #preloader .logo {
-    width: 150px; /* Adjust the size of the logo */
+    width: 170px; /* Adjust the size of the logo */
     margin-bottom: 20px;
 }
 
 #preloader p {
-    font-size: 3rem; /* Adjust font size for visibility */
+    font-size: 4rem; /* Adjust font size for visibility */
     margin: 0;
     font-weight: bold;
 }
