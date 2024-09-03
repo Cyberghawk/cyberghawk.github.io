@@ -385,7 +385,8 @@ span{
 }
 
 .members-box img{
-	width: 15rem;
+	width: 13rem;
+	height: 12rem;
 	border-radius: 50%;
 	border: 3px solid var(--main-color);
 	box-shadow: 0 0 25px var(--main-color);
@@ -650,6 +651,7 @@ body.preloaded #content {
 @media(max-width: 895px){
 	#menu-icon{
 		display: block;
+		cursor: pointer;
 	}
 	.navbar{
 		position: absolute;
