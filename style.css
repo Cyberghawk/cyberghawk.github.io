@@ -13,6 +13,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+	letter-spacing: 1px;
 	border: none;
 	outline: none;
 	scroll-behavior: smooth;
@@ -30,6 +31,10 @@
 html{
 	font-size: 60%;
 	overflow-x: hidden;
+}
+
+sup, sub{
+	color: red;
 }
 
 body{
