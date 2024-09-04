@@ -705,7 +705,7 @@ body.preloaded #content {
 	.home-content p{
 		max-width: 600px;
 		margin: 0 auto;
-		visibility: hidden;
+		display: none;
 	}
 
 	.home-img img{
