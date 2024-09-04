@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="form-container">
-        <h1 class="title">JOIN - CGK - <span>GROUP</span></h1>
+        <h1 class="title">JOIN - <span>CGK</span> - GROUP</h1>
         <form action="https://getform.io/f/bkkgvxlb" method="POST">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -23,22 +23,18 @@
             <label for="message">Your Message</label>
             <input type="text" id="message" name="message" placeholder="Enter your message" required>
 
-            <!-- Add hidden Honeypot input to prevent spam -->
+            
             <input type="hidden" name="_gotcha" style="display:none !important">
 
-            <!-- Checkbox handle -->
-            <label><input type="checkbox" name="subscribe" value="yes" checked> Subscribe to newsletter</label>
-            <input type="hidden" name="subscribe" value="no">
-
-            <!-- Radio button handle -->
+            
             <fieldset>
                 <legend>Gender</legend>
                 <label><input type="radio" name="gender" value="male" checked> Male</label>
                 <label><input type="radio" name="gender" value="female"> Female</label>
-                <label><input type="radio" name="gender" value="other"> Other</label>
+                <label><input type="radio" name="gender" value="custom"> custom</label>
             </fieldset>
 
-            <!-- Select field handle -->
+            
             <label for="work-experience">Work Experience</label>
             <select id="work-experience" name="work-experience">
                 <option value="none">none</option>
