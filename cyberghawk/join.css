@@ -1,7 +1,22 @@
+*{
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.handjet-<uniquifier> {
+  font-family: "Handjet", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Handjet", system-ui;
     background: #000;
     color: #0f0;
     display: flex;
@@ -22,7 +37,7 @@ span{
     padding: 20px;
     width: 90%;
     max-width: 500px;
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    border: 1rem solid red;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -57,13 +72,13 @@ input[type="text"], input[type="email"], input[type="tel"], select {
 }
 
 input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder {
-    color: #555;
+    color: grey;
 }
 
 input:focus, select:focus {
     outline: none;
     background: #333;
-    box-shadow: 0 0 10px #0f0;
+    box-shadow: 0 0 1.3rem #0f0;
 }
 
 fieldset {
@@ -88,6 +103,7 @@ button {
     border-radius: 5px;
     background: #0f0;
     color: #000;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
