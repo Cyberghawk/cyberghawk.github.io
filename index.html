@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body>	    
 
     <div id="preloader">
         <div class="preloader-content">
@@ -33,7 +33,7 @@
 		</nav>
 	</header>
 	
-	<a href="chat.html" class="tog"><i class='bx bxs-conversation'></i></a>
+	<a href="chat.html" class="tog"><i class='bx bx-save'></i></a>
 
 	<section class="home" id="home">
 		<div class="home-content">
@@ -43,8 +43,8 @@
 			<div class="social-icons">
 				<a href="https://github.com/Cyberghawk" target="_blank"><i class='bx bxl-github'></i></a>
 				<a href="https://www.youtube.com/@Cyberghawk" target="_blank"><i class='bx bxl-youtube' ></i></a>
-				<a href="https://t.me/Cyberghawk" target="_blank"><i class='bx bxl-telegram'></i></a>
-				<a href="chat.html" target="_blank"><i class='bx bx-chat'></i></a>
+				<a href="https://t.me/cyberghawketh" target="_blank"><i class='bx bxl-telegram'></i></a>
+				<a href="save.html" target="_blank"><i class='bx bx-save'></i></a>
 			</div>
 
 			<div class="btn-group">
@@ -108,15 +108,15 @@
 
 				<div class="member-item">
 					<img src="hacker.png">
-					<h2>Bini</h2>
+					<h2>sami</h2>
 					<div class="rating">
 						<i class='bx bxs-star' id="star"></i>
 						<i class='bx bxs-star' id="star"></i>
-						<i class='bx bxs-star' id="star1"></i>
-						<i class='bx bxs-star' id="star1"></i>
+						<i class='bx bxs-star' id="star"></i>
+						<i class='bx bxs-star' id="star"></i>
 						<i class='bx bxs-star' id="star1"></i>
 					</div>
-					<p>Biniyam</p>
+					<p>Samson</p>
 				</div>
 
 				<div class="member-item">
@@ -134,15 +134,15 @@
 
 				<div class="member-item">
 					<img src="hacker.png">
-					<h2>Hacker 4</h2>
+					<h2>Bini</h2>
 					<div class="rating">
-						<i class='bx bxs-star' id="star1"></i>
-						<i class='bx bxs-star' id="star1"></i>
+						<i class='bx bxs-star' id="star"></i>
+						<i class='bx bxs-star' id="star"></i>
 						<i class='bx bxs-star' id="star1"></i>
 						<i class='bx bxs-star' id="star1"></i>
 						<i class='bx bxs-star' id="star1"></i>
 					</div>
-					<p>Comming Soon!</p>
+					<p>Biniyam</p>
 				</div>
 
 				<div class="member-item">
@@ -200,8 +200,8 @@
 		<div class="social">
 			<a href="https://github.com/Cyberghawk" target="_blank"><i class='bx bxl-github'></i></a>
 				<a href="https://www.youtube.com/@Cyberghawk" target="_blank"><i class='bx bxl-youtube' ></i></a>
-				<a href="https://t.me/Cyberghawk" target="_blank"><i class='bx bxl-telegram'></i></a>
-				<a href="chat.html" target="_blank"><i class='bx bx-chat'></i></a>
+				<a href="https://t.me/cyberghawketh" target="_blank"><i class='bx bxl-telegram'></i></a>
+				<a href="save.html" target="_blank"><i class='bx bx-save'></i></a>
 		</div>
 
 		<ul class="list">
@@ -229,24 +229,22 @@
 		</p>
 	</footer>
 
-	<audio id="background-audio" src="dj.mp3" autoplay></audio>
+	<audio id="music" src="music.mp3" autoplay></audio>
 <script src="script.js"></script>
 
 <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audio = document.getElementById('background-audio');
-            audio.play().catch(function(error) {
-                console.error('Autoplay was prevented:', error);
-            });
+        window.addEventListener('click', () => {
+        document.getElementById("music").play();
         });
 
        
 window.addEventListener('load', function() {
     setTimeout(function() {
         document.body.classList.add('preloaded');
-    }, 6000);
+    }, 5000);
 });
 
     </script>
+</div>
 </body>
 </html>
