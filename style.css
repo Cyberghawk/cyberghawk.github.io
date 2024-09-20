@@ -25,7 +25,7 @@
 	--bg-color: #080808;
 	--second-bg-color: #131313;
 	--text-color: #00ff00;
-	--main-color: red;
+	--main-color: #ff0000;
 }
 
 html{
@@ -491,6 +491,10 @@ span{
 
 .contact form .btn{
 	margin-top: 2rem;
+}
+
+input:hover, textarea:hover{
+	box-shadow: 0 0 2rem var(--main-color);
 }
 
 .footer{
