@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -39,7 +39,6 @@ span{
     max-width: 500px;
     border: 1rem solid red;
     text-align: center;
-    position: relative;
     overflow: hidden;
 }
 
