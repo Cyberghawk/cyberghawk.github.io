@@ -496,39 +496,6 @@ input:hover, textarea:hover{
 	box-shadow: 0 0 2rem var(--main-color);
 }
 
-#gallery{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.gallery{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 2rem;
-}
-
-.gallery-img{
-	width: 30rem;
-	height: 30rem;
-	border-radius: 1rem;
-	border: 5px solid gray;
-}
-
-.gallery-img:hover{
-	border: 5px solid var(--main-color);
-	box-shadow: 0 0 25px var(--main-color);
-	cursor: pointer;
-}
-
-.gallery-img img{
-	width: 100%;
-	user-select: none;
-	pointer-events: none;
-	border-radius: 1rem;
-}
-
 .footer{
 	position: relative;
 	bottom: 0;

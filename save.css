@@ -79,6 +79,7 @@ button:hover {
 #messageList {
     margin-top: 20px;
     text-align: left;
+    font-size: 1.3rem;
 }
 
 .message {
@@ -87,4 +88,9 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 5px;
     background: #1a1a1a;
+}
+
+#messageInput{
+    letter-spacing: 0px;
+    font-family: "lato", sans-serif;
 }
