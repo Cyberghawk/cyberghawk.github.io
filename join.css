@@ -37,15 +37,17 @@ span{
     padding: 20px;
     width: 90%;
     max-width: 500px;
-    border: 1rem solid red;
+    border-left: 1rem solid red;
+    border-right: 1rem solid red;
     text-align: center;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     color: #0f0;
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-shadow: 0 0 10px #0f0;
 }
 
@@ -58,6 +60,11 @@ form {
 label {
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+input,select,label,legend{
+    font-size: 16px;
+    font-family: "lato", sans-serif;
 }
 
 input[type="text"], input[type="email"], input[type="tel"], select {
