@@ -19,6 +19,8 @@
 	scroll-behavior: smooth;
 	user-select: none;
 	font-family: "Handjet", system-ui;
+	scrollbar-width: thin;
+    scrollbar-color: #2c2f3f;
 }
 
 :root{
@@ -267,11 +269,11 @@ span{
 	}
 	61%,
 	80%{
-		content: "Stay Anonymous And";
+		content: "The Quitter You Become";
 	}
 	81%,
 	100%{
-		content: "Hack Remotely!";
+		content: "The More You Are Able To Hear";
 	}
 }
 
@@ -659,19 +661,6 @@ body.preloaded #content {
 		flex-direction: column;
 	}
 
-	.gallery{
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-	}
-
-.gallery-img{
-		width: 30rem;
-		height: 30rem;
-		border-radius: 1rem;
-		border: 5px solid gray;
-	}
-
 	.footer{
 		padding: 2rem 3%;
 	}
@@ -708,7 +697,7 @@ body.preloaded #content {
 	}
 
 	.home{
-		padding-top: 5rem;
+		padding-top: 3rem;
 		flex-direction: column-reverse;
 		margin: 5rem 4rem;
 	}
@@ -719,7 +708,7 @@ body.preloaded #content {
 
 	.home-content h1{
 		font-size: 5rem;
-		margin-top: 3rem;
+		margin-top: 2rem;
 	}
 
 	.home-content p{
@@ -734,12 +723,6 @@ body.preloaded #content {
 
 	.services-container{
 		grid-template-columns: repeat(1,1fr);
-	}
-
-	.gallery{
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
 	}
 
 	.tog{

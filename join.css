@@ -1,6 +1,8 @@
 *{
     letter-spacing: 1px;
     user-select: none;
+    scrollbar-width: thin;
+    scrollbar-color: #2c2f3f;
 }
 
 .handjet-<uniquifier> {
