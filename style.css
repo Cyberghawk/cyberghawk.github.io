@@ -102,12 +102,10 @@ body{
 	margin-left: 3rem;
 	font-weight: 500;
 	transition: 0.3s ease;
-	border-bottom: 3px solid transparent;
 }
 
 .navbar a:hover{
 	color: var(--main-color);
-	border-bottom: 3px solid var(--main-color);
 }
 
 #menu-icon{
