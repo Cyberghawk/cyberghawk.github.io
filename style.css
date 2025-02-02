@@ -1,4 +1,13 @@
 
+.handjet-<uniquifier> {
+  font-family: "Handjet", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
 
 * {
 	margin: 0;
@@ -10,7 +19,7 @@
 	outline: none;
 	scroll-behavior: smooth;
 	user-select: none;
-	font-family: "Atomic Age", serif;
+	font-family: "Handjet", serif;
 	scrollbar-width: thin;
     scrollbar-color: #2c2f3f;
 }
